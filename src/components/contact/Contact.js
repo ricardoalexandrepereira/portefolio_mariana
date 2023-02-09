@@ -13,7 +13,7 @@ const Contact = () => {
 
     <div className='w-full'>
 
-            <div className='w-full h-auto flex justify-between'>
+            <div className='w-full h-auto flex flex-col lgl:flex-row justify-between'>
 
                 <ContactLeft />
 

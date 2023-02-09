@@ -7,15 +7,15 @@ const Skills = () => {
     initial={{ opacity: 0, scale: 0.5 }}
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 0.5 }} 
-    className="flex gap-12">
+    className="w-full h-auto flex flex-col lgl:flex-row lgl:gap-20">
 
-  <div className="flex flex-col w-full">
+  <div className="w-full h-auto lgl:w-1/2">
 
     <div className="py-12 font-titleFont">
       <p className="text-sm text-designColor tracking-[4px]">Features</p>
-      <h2 className="text-4xl font-bold">Design Skills</h2>
+      <h2 className="text-3xl md:text-4xl font-bold">Design Skills</h2>
     </div>
-    <div className="mt-14 w-full h-[1000px] flex flex-col gap-10">
+    <div className="mt-14 w-full flex flex-col gap-10">
 
       <div className='overflow-x-hidden'>
         <p className='text-sm uppercase font-medium'>Figma</p>
@@ -84,12 +84,12 @@ const Skills = () => {
     </div>
   </div>
 
-    <div className="flex flex-col w-full">
+    <div className="w-full h-auto lgl:w-1/2">
     <div className="py-12 font-titleFont">
       <p className="text-sm text-designColor tracking-[4px]">Features</p>
-      <h2 className="text-4xl font-bold">Development Skills</h2>
+      <h2 className="text-3xl md:text-4xl font-bold">Development Skills</h2>
     </div>
-    <div className="mt-14 w-full h-[1000px] flex flex-col gap-10">
+    <div className="mt-14 w-full flex flex-col gap-10">
       
     <div className='overflow-x-hidden'>
         <p className='text-sm uppercase font-medium'>Figma</p>

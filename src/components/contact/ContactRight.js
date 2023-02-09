@@ -46,7 +46,7 @@ const ContactRight = () => {
 
 
   return (
-    <div className='w-[60%] h-full gap-8 shadow-shadowOne rounded-lg flex flex-col justify-between bg-gradient-to-r from-[#1e2024] py-10 p-8 to-[#23272b]'>
+    <div className='w-full h-full gap-8 shadow-shadowOne rounded-lg flex flex-col justify-between bg-gradient-to-r from-[#1e2024] py-10 p-8 to-[#23272b]'>
         <form className='w-full flex flex-col gap-6 py-10'>
 
             {

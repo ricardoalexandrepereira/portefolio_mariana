@@ -15,8 +15,8 @@ const Banner = () => {
   });
 
   return (
-   <section id='home' className="w-full py-10 pb-20 items-center border-b-[1px] flex font-titleFont border-b-black">
-    <div className='w-1/2 flex flex-col gap-10'>
+   <section id='home' className="w-full py-1 pb-20 items-center border-b-[1px] flex flex-col lgl:flex-row xl:gap-0 font-titleFont border-b-black">
+    <div className='w-full lgl:w-1/2 flex flex-col gap-10'>
       <div className='flex flex-col gap-5'>
         <h4 className="text-lg font-normal"> Hi There!</h4>
         <h1 className='text-6xl font-bold text-white'>I´m 
@@ -30,7 +30,7 @@ const Banner = () => {
           cursorColor='#ff014f'/>
           </h2>
           <p className='text-base font-bodyFont leading-6 tracking-wide'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vitae voluptatem culpa? Itaque cupiditate, 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vitae xcsvszdf cvbsbbbd sdsdfgsd fvb ,dfg sd
             suscipit ullam iste dignissimos voluptatum libero.
           </p>
       </div>
@@ -50,9 +50,9 @@ const Banner = () => {
       </div>
     </div>
 
-    <div className='w-1/2 flex justify-center items-center relative'>
-      <img className='w-[450px] h-[600px] z-10' src={Mari} alt="mari" />
-      <div className='absolute w-[500px] bottom-0 h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne
+    <div className='w-full lgl:w-1/2 flex justify-center items-center relative'>
+      <img className='w-[300px] h-[400px] lgl:w-[460px] lgl:h-[600px] z-10' src={Mari} alt="mari" />
+      <div className='absolute w-[350px] bottom-0 h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne
       flex justify-center align-center'></div>
     </div>
     

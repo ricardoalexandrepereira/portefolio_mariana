@@ -11,7 +11,7 @@ const Projects = () => {
         <Title title="Visit my Portefolio and keep your feedback"
         des="My Projects"/>
 
-        <div className='grid grid-cols-3 gap-14'>
+        <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
 
             <ProjectsCard title="Social Media Clone" des="lorem fkkjf k kksd, ijsnffv,u un jnnjnnkmdssv" src={ProjectOne}/>
             <ProjectsCard title="E-Commerce Website" des="lorem fkkjf k kksd, ijsnffv,u un jnnjnnkmdssv" src={ProjectOne}/>

@@ -12,7 +12,7 @@ const Features = () => {
    
    <Title title="Features" des="what I do"/>
 
-   <div className='grid grid-cols-3 gap-20'>
+   <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap:-6 xl:gap-20'>
 
       <Card title="Business Strategy" des="loremfj sfgndf ge g edf grt hrthryyhr rthrth rytuujrdee" icon={<FaBars/>}/>
       <Card title="App development" des="loremfj sfgndf ge g edf grt hrthryyhr rthrth rytuujrdee" icon={<AiFillAppstore/>}/>
