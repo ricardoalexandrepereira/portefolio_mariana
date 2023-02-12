@@ -15,6 +15,10 @@ module.exports = {
           lgl:"1024px",
           xl:"1280px",
       },
+    /*   backgrounImageBanner:{
+          "banner-bg":"url:('/public/nannerBg.jpg')"
+      }, */
+      
       fontFamily:{
         bodyFont:['Unbounded','sans-serif'],
         titleFont:['Montserrat', 'sans-serif']

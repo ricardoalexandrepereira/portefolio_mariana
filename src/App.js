@@ -8,11 +8,17 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import FooterBottom from "./components/footer/FooterBottom";
 
+
 export default function App() {
+
+  
+
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText">
-      <div className="max-w-screen-xl mx-auto px-5">
+    
+        
         <Navbar />
+      <div className="max-w-screen-xl mx-auto px-5 overflow-x-hidden">
         <Banner />
         <Features />
         <Projects />

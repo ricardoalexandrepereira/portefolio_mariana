@@ -2,9 +2,11 @@ import React from 'react'
 import {useState} from "react"
 import Title from '../layouts/Title'
 import Slider from "react-slick";
+import { motion } from "framer-motion"
 import {RiStarFill} from "react-icons/ri"
 import {HiArrowRight, HiArrowLeft} from 'react-icons/hi'
 import {marimari, mee, quote} from "../../assets"
+
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -30,6 +32,7 @@ function SamplePrevArrow(props) {
 }
 
 const Testimonial = () => {
+
 
   const [dotActive, setDotActive] = useState (0);
     const settings = {
@@ -88,9 +91,22 @@ const Testimonial = () => {
   return (
     <section id="testimonial" className="w-full py-20 border-b-[1px] border-b-black">
       
+      
       <Title title="WHAT CLIENTS SAY" des="Testimonial" />
 
-      <div className='max-w-6xl mx-auto'>
+      <motion.div 
+      initial={{ opacity: 0, y:100 }}
+      whileInView={{ opacity: 1, y:0 }}
+      transition={{ 
+        delay:.2,
+        duration: 1, 
+        x:{type:"spring", stiffness: 100},
+        opacity:{duration:3},
+        ease:"easeInOut"  
+      }}
+      className='max-w-6xl mx-auto'>
+
+        
         
         <Slider {...settings}>
 
@@ -227,7 +243,7 @@ const Testimonial = () => {
          
           
         </Slider>
-      </div>
+      </motion.div>
     </section>
   )
 }

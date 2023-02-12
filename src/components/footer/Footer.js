@@ -23,7 +23,7 @@ const Footer = () => {
         <h3 className="text-md uppercase text-designColor tracking-wide">
             Quick Link
         </h3>
-        <ul className="flex flex-col gap-4 font-titleFont font-medium py-6">
+        <ul className="flex flex-col gap-4 font-titleFont font-medium py-6 ">
             <a href="https://react-slick.neostack.com/docs/example/custom-arrows/" target="_blank" rel="noreferrer">
                 <li>
                     <span  className="w-full text-sm hover:text-designColor duration-300 cursor-pointer relative group">

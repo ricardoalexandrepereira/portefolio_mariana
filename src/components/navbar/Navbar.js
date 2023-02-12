@@ -11,7 +11,7 @@ const Navbar = () => {
   console.log(showMenu);
 
   return (
-    <div className="w-full h-24 mx-auto sticky top-0 bg-bodyColor z-50 flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
+    <div className="w-full h-24 mx-auto max-w-screen-xl px-5 sticky top-0 bg-bodyColor z-50 flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div>
         <img src={Logo} width={100} height={100} alt="logo" />
       </div>

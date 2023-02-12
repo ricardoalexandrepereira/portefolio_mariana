@@ -15,7 +15,7 @@ const Education = () => {
         <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
         <h2 className="text-2xl md:text-4xl font-bold">Education</h2>
       </div>
-      <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+      <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 relative">
         <ResumeCard 
         title="BSc in Computer Science"
         subTitle="kingsta Secondary School (2006 - 2009)"

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import { motion } from "framer-motion"
 
 const ContactRight = () => {
 
@@ -46,7 +46,17 @@ const ContactRight = () => {
 
 
   return (
-    <div className='w-full h-full gap-8 shadow-shadowOne rounded-lg flex flex-col justify-between bg-gradient-to-r from-[#1e2024] py-10 p-8 to-[#23272b]'>
+    <motion.div
+    initial={{ opacity: 0, x:100 }}
+    whileInView={{ opacity: 1, x:0 }}
+    transition={{ 
+      delay:.2,
+      duration: 1, 
+      x:{type:"spring", stiffness: 100},
+      opacity:{duration:3},
+      ease:"easeInOut"  
+    }}  
+    className='w-full gap-8 shadow-shadowOne rounded-lg flex flex-col justify-between bg-gradient-to-r from-[#1e2024] py-10 p-8 to-[#23272b]'>
         <form className='w-full flex flex-col gap-6 py-10'>
 
             {
@@ -105,11 +115,11 @@ const ContactRight = () => {
                 <textarea 
                 onChange={(e)=>setMessage(e.target.value)} 
                 value={message} 
-                className={`${errMsg === 'Message is Required!' && "outline-designColor"} contactTextArea`} 
+                className={`${errMsg === 'Message is Required!' && "outline-designColor"} w-auto h-auto contactTextArea`  } 
                 cols="30" 
-                rows="8" 
+                rows="10" 
                 type="text" >
-
+                        
                 </textarea>
             </div>
             <div className='w-full'>
@@ -126,7 +136,7 @@ const ContactRight = () => {
                 successMsg && <p className='py-3 bg-gradient-to-r from-[#1e2024] to-[#23272b] 
                 text-center shadow-shadowOne text-1xl text-green-500 text-base animate-pulse'>{successMsg}</p>
             }
-    </div>
+    </motion.div>
   )
 }
 
