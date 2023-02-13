@@ -24,7 +24,7 @@ const particlesLoaded = useCallback(async container => {
 
 
   const [text] = useTypewriter({
-    words: ["Professional Coder.","Full Stack Developer.", "UI Designer"],
+    words: ["Logistics expert.","Digital Marketing Specialist.", "Writter."],
     loop:true,
     typeSpeed:20,
     deleteSpeed:10,
@@ -139,8 +139,11 @@ const particlesLoaded = useCallback(async container => {
           cursorColor='#ff014f'/>
           </h2>
           <p className='text-base font-bodyFont leading-6 tracking-wide'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vitae xcsvszdf cvbsbbbd sdsdfgsd fvb ,dfg sd
-            suscipit ullam iste dignissimos voluptatum libero.
+          I am a curious, creative person, I
+          am optimistic, I love learning
+          new things and I am aware that
+          when I leave my comfort zone I
+          grow.
           </p>
       </motion.div>
 
@@ -159,7 +162,7 @@ const particlesLoaded = useCallback(async container => {
             ease:"easeIn"  
           }}
           className="bannerIcon z-10">
-            <FaFacebookF />
+            <a href="https://facebook.com/mariana.piazza.37" rel="noreferrer" target="_blank"><span><FaFacebookF /></span></a>
           </motion.span>
 
           <motion.span
@@ -173,7 +176,7 @@ const particlesLoaded = useCallback(async container => {
             ease:"easeIn"  
           }} 
           className="bannerIcon z-10">
-            <FaLinkedinIn />
+            <a href="https://linkedin.com/in/mariana-ivon-piazza-4b852475" rel="noreferrer" target="_blank"><span><FaLinkedinIn /></span></a> 
           </motion.span>
 
           <motion.span
@@ -187,7 +190,7 @@ const particlesLoaded = useCallback(async container => {
             ease:"easeIn"  
           }} 
           className="bannerIcon z-10">
-            <FaInstagram />
+             <a href="https://instagram.com/marian_piazza?igshid=YmMyMTA2M2Y=" rel="noreferrer" target="_blank"><span><FaInstagram /></span></a> 
           </motion.span>
         </div>
       </div>

@@ -2,21 +2,24 @@ import React from "react";
 import { Logo } from "../../assets";
 import {FaFacebookF, FaLinkedinIn, FaInstagram} from 'react-icons/fa';
 
+
 const Footer = () => {
+
+  
+
   return (
-    <div className="w-full py-20 h-auto border-b-[1px] border-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
+    <div className="w-full py-20 h-auto border-b-[1px] border-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8 relative">
+
+
+
       <div className="w-full h-full flex flex-col -gap-1">
         <img className="w-40" src={Logo} alt="logo" />
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
-          <span className="bannerIcon">
-            <FaInstagram />
-          </span>
+
+        <a href="https://facebook.com/mariana.piazza.37" rel="noreferrer" target="_blank"><span className='bannerIcon'><FaFacebookF /></span></a> 
+        <a href="https://linkedin.com/in/mariana-ivon-piazza-4b852475" rel="noreferrer" target="_blank"><span className='bannerIcon'><FaLinkedinIn /></span></a> 
+        <a href="https://instagram.com/marian_piazza?igshid=YmMyMTA2M2Y=" rel="noreferrer" target="_blank"><span className='bannerIcon'><FaInstagram /></span></a> 
+        
         </div>
       </div>
       <div className="w-full h-full">

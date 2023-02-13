@@ -12,28 +12,29 @@ const Education = () => {
         
       <div className="flex flex-col">
       <div className="py-12 font-titleFont">
-        <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p>
+       {/*  <p className="text-sm text-designColor tracking-[4px]">1998 - 2010</p> */}
         <h2 className="text-2xl md:text-4xl font-bold">Education</h2>
       </div>
       <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10 relative">
         <ResumeCard 
-        title="BSc in Computer Science"
-        subTitle="kingsta Secondary School (2006 - 2009)"
-        result="5.00/5"
+        title="Marketing Digital: community manager, content
+        manager, ads social Google"
+        subTitle="University Nacional de Cuyo. Mendoza, Arg."
+        result="2022"
         des="Higher education is tertiary education leading to award of an academic degree. 
-        Higher education, also called post-secondary"
+        Higher education"
         />
         <ResumeCard 
-         title="Science & Information"
-         subTitle="kingsta Secondary School (2001 - 2005)"
-         result="5.00/5"
+         title="University degree in logistic and transport"
+         subTitle="University Nacional de Cuyo. Mendoza, Arg."
+         result="2009-2012"
          des="Higher education is tertiary education leading to award of an academic degree. 
-         Higher education, also called post-secondary"
+         Higher education"
          />
         <ResumeCard 
-         title="Secondary School Education"
-         subTitle="kingsta Secondary School (1998 - 2000)"
-         result="5.00/5"
+         title="Bachelor‘s degree in political science and public administration"
+         subTitle="University Nacional de Cuyo. Mendoza, Arg."
+         result="2007-2009"
          des="Higher education is tertiary education leading to award of an academic degree. 
          Higher education, also called post-secondary"
          />
@@ -42,30 +43,27 @@ const Education = () => {
 
       <div className="flex flex-col">
       <div className="py-12 font-titleFont">
-        <p className="text-sm text-designColor tracking-[4px]">2010 - 2023</p>
-        <h2 className="text-2xl md:text-4xl font-bold">Job Experience</h2>
+        {/* <p className="text-sm text-designColor tracking-[4px]">2010 - 2023</p> */}
+        <h2 className="text-2xl md:text-4xl font-bold">International</h2>
       </div>
       <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
         <ResumeCard 
-        title="other"
-        subTitle="kingsta Secondary School (2006 - 2009)"
-        result="5.00/5"
-        des="Higher education is tertiary education leading to award of an academic degree. 
-        Higher education, also called post-secondary"
+        title="Mindfullnes and emotional management"
+        subTitle="European Institute of positive Psychology."
+        result="2023"
+        des="SPAIN"
         />
         <ResumeCard 
-         title="other 2"
-         subTitle="kingsta Secondary School (2001 - 2005)"
-         result="5.00/5"
-         des="Higher education is tertiary education leading to award of an academic degree. 
-         Higher education, also called post-secondary"
+         title="advanced life support course."
+         subTitle="alcochete firefighters"
+         result="2022"
+         des="PORTUGAL"
          />
         <ResumeCard 
-         title="Secondary School Education"
-         subTitle="kingsta Secondary School (1998 - 2000)"
-         result="5.00/5"
-         des="Higher education is tertiary education leading to award of an academic degree. 
-         Higher education, also called post-secondary"
+         title="Development of the entrepreneurial profile and business model"
+         subTitle="ITU"
+         result="2023"
+         des="PORTUGAL"
          />
       </div>
       </div>

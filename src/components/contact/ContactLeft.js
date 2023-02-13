@@ -23,18 +23,19 @@ const ContactLeft = () => {
                             <p className='text-lg font-normal text-gray-400 tracking-wide'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                                 Eum veniam aut quos nemo adipisci sit atque vel magni, nihil ea?</p>
                             <p className='text-base text-gray-400 flex items-center gap-2'>
-                                Phone: <span className='text-lightText'>+351 556 3445</span></p>
+                                Phone: <span className='text-lightText'>+351 917 326 624</span></p>
                             <p className='text-base text-gray-400 flex items-center gap-2'>
-                                Email: <span className='text-lightText'> marianapiazza@hotmail.com </span></p>
+                                Email: <span className='text-lightText'> marianapiazza01@gmail.com</span></p>
                             <p className='text-base text-gray-400 flex items-center gap-2'>
                                 Phone: <span className='text-lightText'>+351 556 3445</span></p>
                         </div>
                         <div>
                             <h2 className='text-base uppercase font-titleFont mb-4 mt-20 '>Find me in:</h2>
                             <div className='flex gap-4'>
-                                <span className='bannerIcon'><FaFacebookF /></span>
-                                <span className='bannerIcon'><FaLinkedinIn /></span>
-                                <span className='bannerIcon'><FaInstagram /></span>
+                               <a href="https://facebook.com/mariana.piazza.37" rel="noreferrer" target="_blank"><span className='bannerIcon'><FaFacebookF /></span></a> 
+                               <a href="https://linkedin.com/in/mariana-ivon-piazza-4b852475" rel="noreferrer" target="_blank"><span className='bannerIcon'><FaLinkedinIn /></span></a> 
+                               <a href="https://instagram.com/marian_piazza?igshid=YmMyMTA2M2Y=" rel="noreferrer" target="_blank"><span className='bannerIcon'><FaInstagram /></span></a> 
+                               <a href="Cv Mariana Piazza.pdf" download="Cv Mariana Piazza.pdf" target="_blank"><button className='bannerIcon text-center text-sm font-titleFont ml-20 w-[200px] px-20'>DOWNLOAD CV</button></a> 
                             </div>
                         </div>
                 </motion.div>
