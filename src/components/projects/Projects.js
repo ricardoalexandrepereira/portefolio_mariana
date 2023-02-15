@@ -1,5 +1,5 @@
 
-import React from 'react'
+/* import React from 'react'
 import Title from '../layouts/Title'
 import ProjectsCard from './ProjectsCard'
 import { ProjectOne } from '../../assets/index'
@@ -103,4 +103,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Projects */

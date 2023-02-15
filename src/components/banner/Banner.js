@@ -37,7 +37,7 @@ const particlesLoaded = useCallback(async container => {
     <div className='w-full lgl:w-1/2 flex flex-col gap-10'>
 
     <Particles
-            className='w-[100%] h-[110%] absolute -z-9 top-0 left-0'
+            className='w-[100%] h-[120%] absolute -z-9 top-0 left-0'
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
@@ -207,7 +207,7 @@ const particlesLoaded = useCallback(async container => {
     }}
     className='w-full lgl:w-1/2 flex justify-center items-center relative'>
 
-      <img className='w-[300px] h-[400px] lgl:w-[460px] lgl:h-[600px] z-10' src={mariana} alt="mari" />
+      <img className='w-[300px] h-[400px] mt-20 lgl:w-[460px] lgl:h-[600px] z-10' src={mariana} alt="mari" />
       <div className='absolute w-[350px] bottom-0 h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne
       flex justify-center align-center'></div>
     </motion.div>
