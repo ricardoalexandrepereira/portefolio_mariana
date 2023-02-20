@@ -30,11 +30,17 @@ const ContactLeft = () => {
                         </div>
                         <div>
                             <h2 className='text-base uppercase font-titleFont mb-4 mt-20 '>Find me in:</h2>
-                            <div className='flex gap-4'>
-                               <a href="https://facebook.com/mariana.piazza.37" rel="noreferrer" target="_blank"><span className='bannerIcon'><FaFacebookF /></span></a> 
+                            <div className='flex flex-col gap-4 lg:flex lg:flex-row'>
+
+                              <div className='flex gap-2'>
+                              <a href="https://facebook.com/mariana.piazza.37" rel="noreferrer" target="_blank"><span className='bannerIcon'><FaFacebookF /></span></a> 
                                <a href="https://linkedin.com/in/mariana-ivon-piazza-4b852475" rel="noreferrer" target="_blank"><span className='bannerIcon'><FaLinkedinIn /></span></a> 
                                <a href="https://instagram.com/marian_piazza?igshid=YmMyMTA2M2Y=" rel="noreferrer" target="_blank"><span className='bannerIcon'><FaInstagram /></span></a> 
-                               <a href="Cv Mariana Piazza.pdf" download="Cv Mariana Piazza.pdf" target="_blank"><button className='bannerIcon text-center text-sm font-titleFont ml-20 w-[200px] px-20'>DOWNLOAD CV</button></a> 
+                              </div>
+
+                               <div className='flex flex-col'>
+                                <a href="Cv Mariana Piazza.pdf" download="Cv Mariana Piazza.pdf" target="_blank"><button className='bannerIcon text-center text-sm font-titleFont w-[200px] px-20'>DOWNLOAD CV</button></a> 
+                               </div>
                             </div>
                         </div>
                 </motion.div>
