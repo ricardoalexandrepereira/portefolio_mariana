@@ -15,9 +15,9 @@ module.exports = {
           lgl:"1024px",
           xl:"1280px",
       },
-    /*   backgrounImageBanner:{
-          "banner-bg":"url:('/public/nannerBg.jpg')"
-      }, */
+      backgrounImageBanner:{
+          "banner-bg":"url:('/public/cocacola.jpg')"
+      },
       
       fontFamily:{
         bodyFont:['Unbounded','sans-serif'],

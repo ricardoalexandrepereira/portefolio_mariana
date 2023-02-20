@@ -19,15 +19,14 @@ const ContactLeft = () => {
                     <img className='w-full h-64 object-cover rounded-lg' src={contact} alt="contact" />
                         <div className='flex flex-col gap-2  pt-4'>
                             <h3 className='text-3xl font-bold text-white'>Mariana Piazza</h3>
-                            <p className='text-lg font-normal text-gray-400'>Digital Marketing</p>
-                            <p className='text-lg font-normal text-gray-400 tracking-wide'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                Eum veniam aut quos nemo adipisci sit atque vel magni, nihil ea?</p>
+                            <p className='text-lg font-normal text-gray-400'>Marketing, Logistics</p>
+                            <p className='text-lg font-normal text-gray-400 tracking-wide'>I put my knowledge at your disposal, in many areas, in order to make you and 
+                            your business grow. Don't hesitate to contact me to learn more.</p><br></br>
                             <p className='text-base text-gray-400 flex items-center gap-2'>
                                 Phone: <span className='text-lightText'>+351 917 326 624</span></p>
                             <p className='text-base text-gray-400 flex items-center gap-2'>
                                 Email: <span className='text-lightText'> marianapiazza01@gmail.com</span></p>
-                            <p className='text-base text-gray-400 flex items-center gap-2'>
-                                Phone: <span className='text-lightText'>+351 556 3445</span></p>
+                            
                         </div>
                         <div>
                             <h2 className='text-base uppercase font-titleFont mb-4 mt-20 '>Find me in:</h2>

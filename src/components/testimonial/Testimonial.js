@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import { motion } from "framer-motion"
 import {RiStarFill} from "react-icons/ri"
 import {HiArrowRight, HiArrowLeft} from 'react-icons/hi'
-import {marimari, mee, quote} from "../../assets"
+import {mee, quote, julian, andrew} from "../../assets"
 
 
 function SampleNextArrow(props) {
@@ -118,9 +118,9 @@ const Testimonial = () => {
     flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center shadow-shadowOne'>
         <img className='h-72 md:h-32 lgl:h-72 rounded-lg object-cover' src={mee} alt="testimonial1" />
         <div className='w-full flex flex-col justify-end'>
-            <p className='text-xs uppercase text-designColor tracking-wide mb-2'>Apple</p>
-            <h3 className='text-2xl font-bold'>Juliet MacNamara</h3>
-            <p className='text-base tracking-wide text-gray-500'>Operation Officer</p>
+            <p className='text-xs uppercase text-designColor tracking-wide mb-2'>Tik-Tok</p>
+            <h3 className='text-2xl font-bold'>Ricardo Pereira</h3>
+            <p className='text-base tracking-wide text-gray-500'>Web Developer</p>
         </div>
     </div>
 
@@ -131,8 +131,8 @@ const Testimonial = () => {
                         flex flex-col justify-center gap-8 p-8'>
                 <div className='flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-black'>
                     <div>
-                        <h3 className='text-xl lgl:text2xl font-medium tracking-wide'> Travel Mobile App Design</h3>
-                        <p className='text-base text-gray-400 mt-3'> via Upwork , Mar 4, 2015 - Aug 30, 2021</p>
+                        <h3 className='text-xl lgl:text2xl font-medium tracking-wide text-center'> Professionalism </h3>
+                        <p className='text-base text-gray-400 mt-3 text-center pb-2'> via Upwork , Mar 4, 2022</p>
                     </div>
                     <div className='text-yellow-500 flex gap-1'>
                     <RiStarFill />
@@ -143,10 +143,7 @@ const Testimonial = () => {
                     </div>
                 </div>
 
-                <p className='text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos 
-                    culpa voluptates, doloremque corporis officia obcaecati 
-                    accusantium vero suscipit alias voluptatem eveniet qui commodi cumque amet rerum eum 
-                    consectetur non.</p>
+                <p className='text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6'>It was a pleasure working with you, you contributed a lot to what I was thinking for my project, I recognize your professionalism, and I thank you for your promptness.</p>
         </div>
     </div>
 
@@ -159,10 +156,10 @@ const Testimonial = () => {
 
     <div className='w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] rounded-lg p-8 to-[#23272b] 
     flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center shadow-shadowOne'>
-        <img className='h-72 md:h-32 lgl:h-72 rounded-lg object-cover' src={marimari} alt="testimonial2" />
+        <img className='h-72 md:h-32 lgl:h-72 rounded-lg object-cover' src={julian} alt="testimonial2" />
         <div className='w-full flex flex-col justify-end'>
-            <p className='text-xs uppercase text-designColor tracking-wide mb-2'>Apple</p>
-            <h3 className='text-2xl font-bold'>Juliet MacNamara</h3>
+            <p className='text-xs uppercase text-designColor tracking-wide mb-2'>Coca-cola</p>
+            <h3 className='text-2xl font-bold'>Julian</h3>
             <p className='text-base tracking-wide text-gray-500'>Operation Officer</p>
         </div>
     </div>
@@ -174,8 +171,8 @@ const Testimonial = () => {
                         flex flex-col justify-center gap-8 p-8'>
                 <div className='flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-black'>
                     <div>
-                        <h3 className='text-xl lgl:text2xl font-medium tracking-wide'> Travel Mobile App Design</h3>
-                        <p className='text-base text-gray-400 mt-3'> via Upwork , Mar 4, 2015 - Aug 30, 2021</p>
+                        <h3 className='text-xl lgl:text2xl font-medium tracking-wide'> from argentina with love!</h3>
+                        <p className='text-base text-gray-400 mt-3 text-center pb-2'> via Upwork , Set 8, 2022</p>
                     </div>
                     <div className='text-yellow-500 flex gap-1'>
                     <RiStarFill />
@@ -186,10 +183,7 @@ const Testimonial = () => {
                     </div>
                 </div>
 
-                <p className='text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos 
-                    culpa voluptates, doloremque corporis officia obcaecati 
-                    accusantium vero suscipit alias voluptatem eveniet qui commodi cumque amet rerum eum 
-                    consectetur non.</p>
+                <p className='text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6'>You were my tutor, I thank you for the knowledge you passed on to me, and I hope you continue to be successful in what you do best, which is to lead.</p>
         </div>
     </div>
 
@@ -202,11 +196,11 @@ const Testimonial = () => {
 
     <div className='w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] rounded-lg p-8 to-[#23272b] 
     flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center shadow-shadowOne'>
-        <img className='h-72 md:h-32 lgl:h-72 rounded-lg object-cover' src={mee} alt="testimonial1" />
+        <img className='h-72 md:h-32 lgl:h-72 rounded-lg object-cover' src={andrew} alt="testimonial1" />
         <div className='w-full flex flex-col justify-end'>
-            <p className='text-xs uppercase text-designColor tracking-wide mb-2'>Apple</p>
-            <h3 className='text-2xl font-bold'>Juliet MacNamara</h3>
-            <p className='text-base tracking-wide text-gray-500'>Operation Officer</p>
+            <p className='text-xs uppercase text-designColor tracking-wide mb-2'>Tik-Tok</p>
+            <h3 className='text-2xl font-bold'>Andrew</h3>
+            <p className='text-base tracking-wide text-gray-500'>HQ moderator</p>
         </div>
     </div>
 
@@ -218,7 +212,7 @@ const Testimonial = () => {
                 <div className='flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-black'>
                     <div>
                         <h3 className='text-xl lgl:text2xl font-medium tracking-wide'> Travel Mobile App Design</h3>
-                        <p className='text-base text-gray-400 mt-3'> via Upwork , Mar 4, 2015 - Aug 30, 2021</p>
+                        <p className='text-base text-gray-400 mt-3 text-center pb-2'> via Upwork , Aug 30, 2021</p>
                     </div>
                     <div className='text-yellow-500 flex gap-1'>
                     <RiStarFill />
@@ -229,10 +223,8 @@ const Testimonial = () => {
                     </div>
                 </div>
 
-                <p className='text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dignissimos 
-                    culpa voluptates, doloremque corporis officia obcaecati 
-                    accusantium vero suscipit alias voluptatem eveniet qui commodi cumque amet rerum eum 
-                    consectetur non.</p>
+                <p className='text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6'>
+                thanks for your help, promoting the brand, I still trust you for the next project, outstanding professionalism on time.</p>
         </div>
     </div>
 

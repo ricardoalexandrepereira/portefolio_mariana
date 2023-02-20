@@ -24,7 +24,7 @@ const Features = () => {
         opacity:{duration:2},
         ease:"easeInOut"  
       }}>
-        <Card title="Business Strategy" des="loremfj sfgndf ge g edf grt hrthryyhr rthrth rytuujrdee" icon={<FaBars/>}/>
+        <Card title="Business Strategy" des="I recently launched my brand 'digital soul' where I promote my marketing services, for companies that need a boost in their marketing campaign." icon={<FaBars/>}/>
       </motion.div>
 
       <motion.div
@@ -37,7 +37,7 @@ const Features = () => {
         opacity:{duration:2},
         ease:"easeInOut"  
       }}>
-        <Card title="App development" des="loremfj sfgndf ge g edf grt hrthryyhr rthrth rytuujrdee" icon={<AiFillAppstore/>}/>
+        <Card title="Logistics" des="professional in logistics since 2011 from the university of cuyo, i plan supply chains, and manage stocks like no one else." icon={<AiFillAppstore/>}/>
       </motion.div>
 
       <motion.div
@@ -50,7 +50,7 @@ const Features = () => {
         opacity:{duration:2},
         ease:"easeInOut"  
       }}>
-        <Card title="SEO Optimization" des="loremfj sfgndf ge g edf grt hrthryyhr rthrth rytuujrdee" icon={<SiProgress/>}/>
+        <Card title="Google Ads" des="I help your company, sell products or services and increase awareness and traffic to your Website." icon={<SiProgress/>}/>
       </motion.div>
 
       <motion.div
@@ -63,7 +63,7 @@ const Features = () => {
         opacity:{duration:2},
         ease:"easeInOut"  
       }}>
-        <Card title="Mobile Development" des="loremfj sfgndf ge g edf grt hrthryyhr rthrth rytuujrdee" icon={<FaMobile/>}/>
+        <Card title="Writter" des="I write children's stories and promote my work on AMAZON, at the moment I have just released my second book 'Abrazando Muenstros'." icon={<FaMobile/>}/>
       </motion.div>
 
       <motion.div
@@ -76,7 +76,7 @@ const Features = () => {
         opacity:{duration:2},
         ease:"easeInOut"  
       }}>
-        <Card title="UX Design" des="loremfj sfgndf ge g edf grt hrthryyhr rthrth rytuujrdee" icon={<SiAntdesign/>}/>
+        <Card title="Support" des="I help you remotely to apply your ideas in Digital Marketing." icon={<SiAntdesign/>}/>
       </motion.div>
 
       <motion.div
@@ -89,7 +89,7 @@ const Features = () => {
         opacity:{duration:2},
         ease:"easeInOut"  
       }}>
-        <Card title="Hosting Websites" des="loremfj sfgndf ge g edf grt hrthryyhr rthrth rytuujrdee" icon={<FaGlobe/>}/>
+        <Card title="Websites" des="I develop your idea, and turn it into a market brand, through your website entirely developed by 'Digital soul'." icon={<FaGlobe/>}/>
       </motion.div>
    
    </div>

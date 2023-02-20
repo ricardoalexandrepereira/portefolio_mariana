@@ -5,7 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 import Resume from "./components/resume/Resume";
 import Testimonial from "./components/testimonial/Testimonial";
 import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
+/* import Footer from "./components/footer/Footer"; */
 import FooterBottom from "./components/footer/FooterBottom";
 import { useState, useEffect } from "react";
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
@@ -56,7 +56,7 @@ export default function App() {
           <Resume />
           <Testimonial />
           <Contact />
-          <Footer />
+          {/* <Footer /> */}
           <FooterBottom />
           
         </div>

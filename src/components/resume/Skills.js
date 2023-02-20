@@ -24,8 +24,8 @@ const Skills = () => {
            initial={{ x: "-100%", opacity: 0 }}
            animate={{ x:"0%", opacity: 1}}
            transition={{ duration: 0.8, delay:0.5 }} 
-           class="w-[65%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 flex rounded-md relative">
-            <span className='absolute -top-7 right-0'>65%</span>
+           class="w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 flex rounded-md relative">
+            <span className='absolute -top-7 right-0'>80%</span>
           </motion.span>
         </span>
       </div>
@@ -63,8 +63,8 @@ const Skills = () => {
            initial={{ x: "-100%", opacity: 0 }}
            animate={{ x:"0%", opacity: 1}}
            transition={{ duration: 0.8, delay:0.5 }} 
-           class="w-[50%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 flex rounded-md relative">
-            <span className='absolute -top-7 right-0'>50%</span>
+           class="w-[70%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 flex rounded-md relative">
+            <span className='absolute -top-7 right-0'>70%</span>
           </motion.span>
         </span>
       </div>
@@ -111,8 +111,8 @@ const Skills = () => {
            initial={{ x: "-100%", opacity: 0 }}
            animate={{ x:"0%", opacity: 1}}
            transition={{ duration: 0.8, delay:0.5 }} 
-           class="w-[95%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 flex rounded-md relative">
-            <span className='absolute -top-7 right-0'>95%</span>
+           class="w-[98%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 flex rounded-md relative">
+            <span className='absolute -top-7 right-0'>98%</span>
           </motion.span>
         </span>
       </div>
@@ -137,8 +137,8 @@ const Skills = () => {
            initial={{ x: "-100%", opacity: 0 }}
            animate={{ x:"0%", opacity: 1}}
            transition={{ duration: 0.8, delay:0.5 }} 
-           class="w-[80%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 flex rounded-md relative">
-            <span className='absolute -top-7 right-0'>80%</span>
+           class="w-[100%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 flex rounded-md relative">
+            <span className='absolute -top-7 right-0'>100%</span>
           </motion.span>
         </span>
       </div>

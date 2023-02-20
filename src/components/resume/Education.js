@@ -1,6 +1,7 @@
 import React from 'react'
 import ResumeCard from './ResumeCard'
 import {motion} from "framer-motion";
+import {desktop} from "../../assets/index"
 
 const Education = () => {
   return (
@@ -23,6 +24,7 @@ const Education = () => {
         result="2022"
         des="Higher education is tertiary education leading to award of an academic degree. 
         Higher education"
+        src={desktop}
         />
         <ResumeCard 
          title="University degree in logistic and transport"
@@ -30,6 +32,7 @@ const Education = () => {
          result="2009-2012"
          des="Higher education is tertiary education leading to award of an academic degree. 
          Higher education"
+         src={desktop}
          />
         <ResumeCard 
          title="Bachelor‘s degree in political science and public administration"
@@ -37,6 +40,7 @@ const Education = () => {
          result="2007-2009"
          des="Higher education is tertiary education leading to award of an academic degree. 
          Higher education, also called post-secondary"
+         src={desktop}
          />
       </div>
       </div>
@@ -52,18 +56,21 @@ const Education = () => {
         subTitle="European Institute of positive Psychology."
         result="2023"
         des="SPAIN"
+        src={desktop}
         />
         <ResumeCard 
          title="advanced life support course."
          subTitle="alcochete firefighters"
          result="2022"
          des="PORTUGAL"
+         src={desktop}
          />
         <ResumeCard 
          title="Development of the entrepreneurial profile and business model"
          subTitle="ITU"
          result="2023"
          des="PORTUGAL"
+         src={desktop}
          />
       </div>
       </div>
