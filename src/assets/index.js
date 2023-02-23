@@ -14,6 +14,7 @@ import tiktok from './images/tik-tok.jpg'
 import desktop from './images/Desktop1.png'
 import julian from './images/testimonial/julian.jpg'
 import andrew from './images/testimonial/Andrew.jpg'
+import marianaportefolio from './images/marianaportefolio1.png'
 
 export {
     Logo,
@@ -31,5 +32,6 @@ export {
     tiktok,
     desktop,
     julian,
-    andrew
+    andrew,
+    marianaportefolio
 };

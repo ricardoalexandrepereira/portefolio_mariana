@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import {mariana} from '../../assets/index';
+import {marianaportefolio} from '../../assets/index';
 import { motion } from "framer-motion"
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
@@ -207,7 +207,7 @@ const particlesLoaded = useCallback(async container => {
     }}
     className='w-full lgl:w-1/2 flex justify-center items-center relative'>
 
-      <img className='w-[300px] h-[400px] mt-20 lgl:w-[460px] lgl:h-[600px] z-10' src={mariana} alt="mari" />
+      <img className='w-[300px] h-[400px] mt-20 lgl:w-[460px] lgl:h-[600px] z-10' src={marianaportefolio} alt="mari" />
       <div className='absolute w-[350px] bottom-0 h-[300px] lgl:w-[500px] lgl:h-[500px] bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne
       flex justify-center align-center'></div>
     </motion.div>
