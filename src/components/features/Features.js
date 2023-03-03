@@ -5,6 +5,9 @@ import {AiFillAppstore} from 'react-icons/ai';
 import {FaMobile, FaGlobe, FaBars} from 'react-icons/fa';
 import {SiProgress, SiAntdesign} from 'react-icons/si';
 import {motion} from "framer-motion"
+import { capaLivro } from '../../assets';
+import {Logo } from '../../assets';
+import {AiFillAmazonSquare} from "react-icons/ai"
 
 const Features = () => {
   return (
@@ -24,7 +27,7 @@ const Features = () => {
         opacity:{duration:2},
         ease:"easeInOut"  
       }}>
-        <Card title="Business Strategy" des="I recently launched my brand 'digital soul' where I promote my marketing services, for companies that need a boost in their marketing campaign." icon={<FaBars/>}/>
+        <Card title="Business Strategy" img={Logo} des="I recently launched my brand 'digital soul' where I promote my marketing services, for companies that need a boost in their marketing campaign." icon={<FaBars/>}/>
       </motion.div>
 
       <motion.div
@@ -37,7 +40,7 @@ const Features = () => {
         opacity:{duration:2},
         ease:"easeInOut"  
       }}>
-        <Card title="Logistics" des="professional in logistics since 2011 from the university of cuyo, i plan supply chains, and manage stocks like no one else." icon={<AiFillAppstore/>}/>
+        <Card title="Logistics" img={Logo} des="professional in logistics since 2011 from the university of cuyo, i plan supply chains, and manage stocks like no one else." icon={<AiFillAppstore/>}/>
       </motion.div>
 
       <motion.div
@@ -50,10 +53,10 @@ const Features = () => {
         opacity:{duration:2},
         ease:"easeInOut"  
       }}>
-        <Card title="Google Ads" des="I help your company, sell products or services and increase awareness and traffic to your Website." icon={<SiProgress/>}/>
+        <Card title="Google Ads" img={Logo} des="I help your company, sell products or services and increase awareness and traffic to your Website." icon={<SiProgress/>}/>
       </motion.div>
 
-      <motion.div
+      <motion.div className='cursor-pointer relative'
       initial={{ opacity: 0, y:50 }}
       whileInView={{ opacity: 1, y:0 }}
       transition={{ 
@@ -63,7 +66,13 @@ const Features = () => {
         opacity:{duration:2},
         ease:"easeInOut"  
       }}>
-        <Card title="Writter" des="I write children's stories and promote my work on AMAZON, at the moment I have just released my second book 'Abrazando Muenstros'." icon={<FaMobile/>}/>
+        <div  className="bannerIcon absolute z-20">
+            <a className='absolute flex justify-center text-center font-xxl' href="https://www.amazon.es/Abrazando-Monstruos-inspirador-meditaci%C3%B3n-herramienta/dp/B0BW2GWGZJ/ref=sr_1_17?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2REHSEY79SCE&keywords=abrazando+monstruos&qid=1677861625&sprefix=abrazando+monstruos%2Caps%2C162&sr=8-17" 
+            rel="noreferrer" target="_blank"><span className='w-full h-full'><AiFillAmazonSquare size={32} /></span></a>
+        </div>
+        
+        <Card title="Writter" img={capaLivro} des="I write children's stories and promote my work on AMAZON, at the moment I have just released my second book 'Abrazando Muenstros'." icon={<FaMobile/>} />
+        
       </motion.div>
 
       <motion.div
@@ -76,7 +85,7 @@ const Features = () => {
         opacity:{duration:2},
         ease:"easeInOut"  
       }}>
-        <Card title="Support" des="I help you remotely to apply your ideas in Digital Marketing." icon={<SiAntdesign/>}/>
+        <Card title="Support" img={Logo} des="I help you remotely to apply your ideas in Digital Marketing." icon={<SiAntdesign/>}/>
       </motion.div>
 
       <motion.div
@@ -89,7 +98,7 @@ const Features = () => {
         opacity:{duration:2},
         ease:"easeInOut"  
       }}>
-        <Card title="Websites" des="I develop your idea, and turn it into a market brand, through your website entirely developed by 'Digital soul'." icon={<FaGlobe/>}/>
+        <Card title="Websites" img={Logo} des="I develop your idea, and turn it into a market brand, through your website entirely developed by 'Digital soul'." icon={<FaGlobe/>}/>
       </motion.div>
    
    </div>

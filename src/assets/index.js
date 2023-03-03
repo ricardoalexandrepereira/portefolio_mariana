@@ -15,6 +15,7 @@ import desktop from './images/Desktop1.png'
 import julian from './images/testimonial/julian.jpg'
 import andrew from './images/testimonial/Andrew.jpg'
 import marianaportefolio from './images/marianaportefolio1.png'
+import capaLivro from './images/capaLivro.jpg'
 
 export {
     Logo,
@@ -33,5 +34,6 @@ export {
     desktop,
     julian,
     andrew,
-    marianaportefolio
+    marianaportefolio,
+    capaLivro
 };
