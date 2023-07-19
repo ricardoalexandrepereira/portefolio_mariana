@@ -8,7 +8,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
-  console.log(showMenu);
+  /* console.log(showMenu); */
 
   return (
     <div className="w-full h-24 mx-auto max-w-screen-xl px-5 sticky top-0 bg-bodyColor z-50 flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
